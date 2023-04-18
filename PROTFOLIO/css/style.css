@@ -1,0 +1,79 @@
+
+
+/*import fonts from font.css fil */
+@import url(./fonts.css);
+
+
+/*css veriables*/
+@import url(./partias/veriable/ver.css);
+
+/*strat navigation */
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 3rem ;
+}
+
+.header_area .main-menu .navbar-nav{
+    padding-left: 0 12%;
+}
+.header_area .main-menu .navbar-nav .nav-item .nav-link{
+    font: normal 530 12px/12px var(--roboto);
+    padding: 1rem;
+    text-transform: uppercase;
+    color: var(--title-color);
+
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+
+}
+
+.site-main .site-bannar .container .row .all-text{
+    margin-left: ;
+}
+
+/*BANNAR AREA START*/
+.site-main .site-bannar .site-title{
+    padding-top: 8.4%;
+    padding-left: 14%;
+
+    
+
+}
+
+
+.site-main .site-bannar .site-title h3::after{
+    content: "";
+    height: 3px;
+    width: 33vw;
+    display: inline-block;
+    background: black;
+    margin-left: 1%;
+    transform: translate(-10px);
+    
+}
+
+
+
+.site-main .site-bannar .site-title h1{
+   font-size: 2rem;
+}
+/*BANNAR AREA END*/
